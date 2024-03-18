@@ -1,0 +1,14 @@
+django >= 4.2, < 4.3                    # Django, our python framework
+djangorestframework >= 3.15, < 4.0      # REST api framework extension for Django
+django-cors-headers                     # Cross-Origin Resource sharing Headers
+psycopg < 4.0                           # postgresql driver for python
+python-decouple                         # set environment variable
+pillow                                  # image processing
+ipython                                 # rich feature interactive shell
+ipykernel                               # Jupyter Notebook support .ipynb extension
+pydantic                                # type check library written in Rust for python
+openpyxl                                # Excel file manipulation
+numpy                                   # Scientific Number Computation library (pandas also require this)
+pandas >= 2.2, < 3.0                    # Tabular data type manipulation
+django-select2                          # Django searchable dropdown
+django-redis                            # Redis driver, only use for caching (Only available on Unix)

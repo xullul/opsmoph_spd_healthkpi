@@ -1,0 +1,24 @@
+{
+    "group": [
+        {
+            "name": "ด้านส่งเสริมสุขภาพ ป้องกันโรค และคุ้มครองผู้บริโภคเป็นเลิศ",
+            "abbr": "PP&P",
+            "en_name": "Promotion Prevention & Protection Excellence"
+        },
+        {
+            "name": "ด้านบริการเป็นเลิศ",
+            "abbr": "service",
+            "en_name": "Service Excellence"
+        },
+        {
+            "name": "ด้านบุคลากรเป็นเลิศ",
+            "abbr": "people",
+            "en_name": "People Excellence"
+        },
+        {
+            "name": "ด้านบริหารเป็นเลิศด้วยธรรมาภิบาล",
+            "abbr": "governance",
+            "en_name": "Governance Excellence"
+        }
+    ]
+}
