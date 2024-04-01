@@ -1,7 +1,7 @@
 django >= 4.2, < 4.3                    # Django, our python framework
 djangorestframework >= 3.15, < 4.0      # REST api framework extension for Django
 django-cors-headers                     # Cross-Origin Resource sharing Headers
-psycopg < 4.0                           # postgresql driver for python
+psycopg                                 # postgresql driver for python
 python-decouple                         # set environment variable
 pillow                                  # image processing
 ipython                                 # rich feature interactive shell

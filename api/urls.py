@@ -1,12 +1,16 @@
 from django.urls import path, include
 from rest_framework import routers
-from . import views
+from .views import UserView, KpiGroupViewSet, KpiLevelViewSet, KpiViewSet, VariableViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'kpi_group', views.KpiGroupViewSet.as_view(), 'kpi_group')
-router.register(r'kpi_level', views.KpiLevelViewSet.as_view(), 'kpi_level')
+router.register(r'kpi_group', KpiGroupViewSet, 'kpi_group')
+router.register(r'kpi_level', KpiLevelViewSet, 'kpi_level')
+router.register(r'kpi', KpiViewSet, 'kpi')
+router.register(r'variable', VariableViewSet, 'variable')
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('user/', UserView.as_view(), name='user-list'),
+    path('user/<int:pk>/', UserView.as_view(), name='user-detail'),
 ]
