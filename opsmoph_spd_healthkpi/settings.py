@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'healthkpi.apps.HealthkpiConfig',
     'api.apps.ApiConfig',
     'django_select2',
+    'django_htmx',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_htmx.middleware.HtmxMiddleware',
 ]
 
 ROOT_URLCONF = 'opsmoph_spd_healthkpi.urls'
@@ -170,6 +172,12 @@ CACHES = {
 }
 
 SELECT2_CACHE_BACKEND = "default"
+
+
+JS_DIRS = (
+    BASE_DIR / Path('healthkpi/static/heakthkpi/src/'),
+    BASE_DIR / Path('share/js/src/'),
+)
 
 
 # Django Cors Headers

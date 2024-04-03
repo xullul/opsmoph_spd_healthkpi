@@ -1,0 +1,31 @@
+{
+  "name": "opsmoph_spd_healthkpi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.2",
+    "core-js": "^3.36.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "esbuild": "0.20.2",
+    "typescript": "^5.4.3"
+  },
+  "browserslist": [
+    ">0.25%, not dead",
+    "chrome 58",
+    "firefox 57",
+    "safari 11",
+    "edge 16"
+  ]
+}

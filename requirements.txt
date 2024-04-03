@@ -12,3 +12,5 @@ numpy                                   # Scientific Number Computation library 
 pandas >= 2.2, < 3.0                    # Tabular data type manipulation
 django-select2                          # Django searchable dropdown
 django-redis                            # Redis driver, only use for caching (Only available on Unix)
+django-htmx                             # htmx support for django
+requests                                # Http Request

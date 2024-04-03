@@ -1,0 +1,19 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": [
+                    ">0.25%, not dead",
+                    "chrome >= 58",
+                    "firefox >= 57",
+                    "safari >= 11",
+                    "edge >= 16"
+                ],
+                "useBuildIns": "usage",
+                "corejs": 3
+            }
+        ],
+        "@babel/preset-typescript"
+    ]
+}
